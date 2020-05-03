@@ -10,4 +10,4 @@ a page where we can see a comparison of all of the plots, and another page where
 
 **Technology used:**
 
-HTML, CSS, Python Jupyter Notebook
+HTML, CSS, Python, Jupyter Notebook(dependencies: os and pandas)

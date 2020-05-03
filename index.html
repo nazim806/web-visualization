@@ -15,25 +15,42 @@
 </head>
 
 <body>
-    <nav>
-        <ul class="nav justify-content-end">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                    aria-expanded="false">Plots</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="visualization/temp.html">Max Temperature</a>
-                    <a class="dropdown-item" href="visualization/humidity.html">Humidity</a>
-                    <a class="dropdown-item" href="visualization/cloudiness.html">Cloudiness</a>
-                    <a class="dropdown-item" href="visualization/wind.html">Wind Speed</a>
+    <nav class="navbar-custom ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <a class="navbar-brand" id="logo">
+                        Latitude
+                    </a>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="comparison.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="data.html">Data</a>
-            </li>
-        </ul>
+                <div class="col-md-4">
+
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Plots</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="visualization/temp.html">Max Temperature</a>
+                                <a class="dropdown-item" href="visualization/humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="visualization/cloudiness.html">Cloudiness</a>
+                                <a class="dropdown-item" href="visualization/wind.html">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comparison.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
 
     </nav>
 
@@ -41,8 +58,8 @@
         <section class="row">
             <div class="col-md-8">
                 <article class="description-content">
-                    <h1>Summary:Latitude vs. X</h1>
-                    <hr />
+                    <h1 class="description-header">Summary:Latitude vs. X</h1>
+                    <hr class="description-hr" />
 
                     <img src="assets/images/Fig1.png" alt="Figure 1" id="description-image" />
                     <p>The purpose of this project was to analyze weather changes as you get closer to the equator.
@@ -85,8 +102,8 @@
     </section>
 
     <footer class="footer navbar-fixed-bottom">
-        <div class="">
-            <p>&copy; Data Visualization Dashboard 2020</p>
+        <div class="two-toned-footer-color">
+            <p class=" text-muted-footer text-center">&copy; Data Visualization Dashboard 2020</p>
         </div>
 
     </footer>

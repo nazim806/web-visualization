@@ -4,10 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comparison</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Visualization</title>
+    <!--Bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Css stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
+    <nav class="navbar-custom ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <a class="navbar-brand" id="logo">
+                        Latitude
+                    </a>
+                </div>
+                <div class="col-md-4">
+
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Plots</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../comparison.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../data.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </nav>
+
+    <div class="container">
+        <article class="description-content row">
+            <div class="col-xs-12">
+                <h1 class="description-header">Comparison: Latitude vs. X</h1>
+
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+    <footer class="footer navbar-fixed-bottom">
+        <div class="two-toned-footer-color">
+            <p class=" text-muted-footer text-center">&copy; Data Visualization Dashboard 2020</p>
+        </div>
+
+    </footer>
 
 </body>
 
